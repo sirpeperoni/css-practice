@@ -1,16 +1,18 @@
-const collapsibles = document.querySelectorAll('.collapsible');
+document.addEventListener('DOMContentLoaded', function() {
+    const collapsibles = document.querySelectorAll('.collapsible');
 
 
-collapsibles.forEach(collapsible => {
-    const header = collapsible.querySelector('.collapsible-header')
-    if (!header) return;
-    const iconHeader = header.querySelector('.collapsible-icon')
-    iconHeader.addEventListener('click', function() {
-        const content = header.nextElementSibling;
-        if (!content) return;
+    collapsibles.forEach(collapsible => {
+        const header = collapsible.querySelector('.collapsible-header')
+        if (!header) return;
+        const iconHeader = header.querySelector('.collapsible-icon')
+        header.addEventListener('click', function() {
+            const content = header.nextElementSibling;
+            if (!content) return;
 
-        content.classList.toggle('open')
-        collapsible.classList.toggle('open')
-        iconHeader.textContent = content.classList.contains('open') ? "-" : "+"
+            content.classList.toggle('open')
+            collapsible.classList.toggle('open')
+            iconHeader.textContent = content.classList.contains('open') ? "-" : "+"
+        })
     })
-})
+});
