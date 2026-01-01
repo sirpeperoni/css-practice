@@ -1,0 +1,18 @@
+.header-section{
+    display: flex;
+    gap: 2.5rem;
+    margin-top: 140px;
+    margin-bottom: 80px;
+}
+
+.header-section span{
+    padding: 0 7px;
+    background: #B9FF66;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.header-section p {
+    font-size: 18px;
+}

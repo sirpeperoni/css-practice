@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    padding: 20px 100px;
+    background: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-nav a span{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}

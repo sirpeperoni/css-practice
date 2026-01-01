@@ -1,0 +1,50 @@
+.bg-191A23{
+    background: #191A23;
+}
+
+.bg-B9FF66{
+    background: #B9FF66;
+}
+
+.bg-F3F3F3{
+    background: #F3F3F3;
+}
+
+.BG-FFFFFF{
+    background: #FFFFFF;
+}
+
+.color-191A23{
+    color: #191A23;
+}
+
+.color-B9FF66{
+    color: #B9FF66;
+}
+
+.color-F3F3F3{
+    color: #F3F3F3;
+}
+
+.color-FFFFFF{
+    color: #FFFFFF;
+}
+
+
+.container {
+    display: block;
+    margin: 0 100px;
+}
+
+.main{
+    margin-top: 110px;
+}
+
+.grid {
+    display: grid;
+}
+
+.flex {
+    display: flex;
+
+}
