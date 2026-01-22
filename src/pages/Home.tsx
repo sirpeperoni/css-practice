@@ -18,7 +18,6 @@ import { Cases } from "../components/Cases";
 import { TeamList } from "../components/TeamList";
 import { Slider } from "../components/Slider";
 import { ContactForm } from "../components/ContactForm";
-import { Footer } from "../components/Footer";
 import { Landing } from "../components/Landing";
 import { Companies } from "../components/Companies";
 
@@ -186,7 +185,7 @@ export const Home = () => {
                 />
                 <ContactForm/>
             </section>
-            <Footer/>
+            
 
 
         </>

@@ -1,3 +1,4 @@
+import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 import { Home } from "../pages/Home";
 
@@ -9,7 +10,9 @@ export const Layout = () => {
                 <div className="main">
                     <Home/>
                 </div>
+                <Footer/>
             </div>
+
         </>
     );
 }
