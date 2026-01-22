@@ -20,7 +20,8 @@ export const Collapsible = ({headerText, textContent, index}:Props) => {
             onClick={handleClick}
         >
             <Card 
-                backgroundColor={isOpen ? "bg-B9FF66" : "bg-F3F3F3"}              
+                backgroundColor={isOpen ? "bg-B9FF66" : "bg-F3F3F3"}  
+                shadow={true}            
             >
                 <div className="collapsible">
                     <div className="collapsible-header">
@@ -28,7 +29,7 @@ export const Collapsible = ({headerText, textContent, index}:Props) => {
                             <span>0{index}</span>
                             {headerText}
                         </div>
-                        <span className="collapsible-icon">+</span>
+                        <span className="collapsible-icon">{isOpen ? "-" : "+"}</span>
                     </div>
                     <div className={`collapsible-body ${isOpen ? "open" : ""}`}>
                         <div className="divider"></div>

@@ -1,6 +1,10 @@
 .card {
     display: flex;
-    border-radius: 45px;
+    width: 100%;
+}
+
+
+.card-shd {
     border: 1px solid black;
     box-shadow: 0 4px rgba(0, 0, 0, 1);
     justify-content: space-between;

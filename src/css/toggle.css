@@ -1,0 +1,32 @@
+.toggle-switch {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    cursor: pointer;
+}
+
+.toggle-switch input[type='checkbox'] {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    appearance: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.toggle-switch input[type='checkbox']:checked::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #B9FF66;
+}
+
+.toggle-switch span {
+    font-size: 18px;
+}

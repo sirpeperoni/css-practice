@@ -1,0 +1,30 @@
+.landing {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 140px;
+}
+
+.landing-info {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    width: 531px;
+}
+
+.landing-info-main-info {
+    width: 498px;
+}
+
+.landing-info-main-info p {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.landing-info-header h1 {
+    font-weight: 500;
+    font-size: 60px;
+}
+
+.landing-btn{
+    width: 270px;
+}

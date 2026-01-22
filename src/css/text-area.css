@@ -1,0 +1,27 @@
+.textarea {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.textarea-label {
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.textarea-field {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+    font-family: inherit;
+    resize: vertical;
+    min-height: 190px;
+    max-height: 500px;
+    max-width: 556px;
+}

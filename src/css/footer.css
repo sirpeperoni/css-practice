@@ -1,0 +1,113 @@
+.footer{
+    width: 100%;
+}
+
+.footer-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.footer-logo{
+    color: #ffffff;
+}
+
+.footer-header-nav{
+    display: flex;
+    gap: 40px;
+}
+
+.footer-header-nav a{
+    color: inherit;
+}
+
+
+.footer-header-nav a span {
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.footer-header-socialmedia{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-info{
+    display: flex;
+    width: 100%;
+}
+
+.footer-info-contact{
+    display: flex;
+    flex: 0 0 40%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-info-contact span {
+    display: flex;
+    background: #B9FF66;
+    font-size: 20px;
+    font-weight: 500;
+    width: 126px;
+    border-radius: 7px;
+    padding: 0 7px;
+    margin-bottom: 7px;
+}
+
+.footer-info-contact p{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.footer-form{
+    border-radius: 14px;
+    display: flex;
+    padding: 58px 40px;
+    background: #292A32;
+    height: 100%;
+    width: 100%;
+    gap: 20px;
+}
+
+.footer-form-container{
+    width: 100%;
+}
+
+.footer-form-input-container {
+    width: 100%;
+    flex: 0 0 55%;
+}
+
+.footer-form-input{
+    padding: 22px 35px;
+    border-radius: 14px;
+    width: 100%;
+}
+
+.footer-form-btn{
+    width: 100%;
+}
+
+.footer-form-input::placeholder{
+    font-size: 18px;
+}
+
+.credits{
+    display: flex;
+    gap: 40px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.credits span a {
+    color: inherit;
+}
+
+.m-50{
+    margin: 50px 0 ;
+    background-color: #ffffff;
+}
