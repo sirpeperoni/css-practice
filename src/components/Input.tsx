@@ -9,6 +9,7 @@ type Props = {
     labelRequired?: boolean;
     additionalClassInput?: string;
     additionalInputContainerClass?: string;
+    className?: string;
 }
 
 
@@ -22,10 +23,10 @@ export const Input = ({
         required = false,
         labelRequired = true,
         additionalClassInput = "",
-        additionalInputContainerClass = "",
+        additionalInputContainerClass = "", className = "",
     }: Props) => {
     return (
-        <div className={`text-input ${additionalInputContainerClass}`}>
+        <div className={`text-input ${additionalInputContainerClass} ${className}`}>
             {
                 labelRequired && <label htmlFor={name} className={`text-input-label`}>
                     {label} {required && <span className="required">*</span>}

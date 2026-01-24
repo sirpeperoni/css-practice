@@ -185,9 +185,6 @@ export const Home = () => {
                 />
                 <ContactForm/>
             </section>
-            
-
-
         </>
     );
 };

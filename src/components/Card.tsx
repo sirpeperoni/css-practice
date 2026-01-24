@@ -35,3 +35,21 @@ export const Card = ({
         </div>
     )
 }
+
+interface BaseCardProps {
+    children: ReactNode;
+    className?: string;
+}
+
+export const BaseCard = ({ children, className }: BaseCardProps) => (
+    <div className={`card ${className ?? ''}`}>
+        {children}
+    </div>
+)
+
+export const CardWithShadow = ({ children }: BaseCardProps) => (
+    <BaseCard className={'card-shadow'}>
+        {children}
+    </BaseCard>
+)
+

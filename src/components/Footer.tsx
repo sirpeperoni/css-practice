@@ -57,7 +57,7 @@ export const Footer = () => {
                     </div>
                     <div className="divider m-50"></div>
                     <div className="credits">
-                        <span>© 2023 Positivus. All Rights Reserved.</span>
+                        <span>© {new Date().getFullYear()} Positivus. All Rights Reserved.</span>
                         <span><a href="">Privacy Policy</a></span>
                     </div>
                 </footer>

@@ -44,6 +44,7 @@ export const FooterForm = () => {
                         labelRequired={false}
                         additionalClassInput="footer-form-input"
                         additionalInputContainerClass="footer-form-input-container"
+                        className={'footer-form-input-container'}
                     />
                     <Button 
                         normalBackgroundColor={"#B9FF66"} 

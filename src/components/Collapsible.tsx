@@ -16,7 +16,7 @@ export const Collapsible = ({headerText, textContent, index}:Props) => {
 
     return (
         <div 
-            className=""
+
             onClick={handleClick}
         >
             <Card 
@@ -26,7 +26,7 @@ export const Collapsible = ({headerText, textContent, index}:Props) => {
                 <div className="collapsible">
                     <div className="collapsible-header">
                         <div className="collapsible-header-text">
-                            <span>0{index}</span>
+                            <span>{index <= 9 ? `0${index}` : index}</span>
                             {headerText}
                         </div>
                         <span className="collapsible-icon">{isOpen ? "-" : "+"}</span>
