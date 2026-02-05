@@ -24,7 +24,6 @@ export const Input = ({
     return (
          <input
              type={type}
-
              name={name}
              placeholder={placeholder}
              value={value}
