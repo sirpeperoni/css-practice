@@ -1,0 +1,54 @@
+.collapsible{
+    padding: 41px 60px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.collapsibleBody{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.collapsibleBody.open{
+    max-height: 300px;
+    transition: max-height 0.3s ease-out;
+}
+
+.collapsibleHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.collapsibleHeaderText{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    gap: 25px;
+}
+
+.collapsibleHeaderText span{
+    font-size: 60px;
+}
+
+
+
+.collapsibleContent p {
+    font-size: 18px;
+}
+
+.collapsibleIcon {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    border: 1px solid #191A23;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}

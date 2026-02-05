@@ -1,0 +1,37 @@
+.landing {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 140px;
+}
+
+.landingInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    width: 531px;
+}
+
+.landingInfoMain {
+    width: 498px;
+}
+
+.landingInfoMain p {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.landingInfoHeader h1 {
+    font-weight: 500;
+    font-size: 60px;
+}
+
+.btn{
+    width: 270px;
+    background: #191A23;
+    color: #FFF;
+}
+
+.btn:hover{
+    background: #B9FF66;
+    color: #191A23;
+}

@@ -1,0 +1,21 @@
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.label {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+  
+
+.input_field {
+    width: 100%;
+    padding: 18px 30px;
+    border-radius: 14px;
+    font-size: 18px;
+}
+  

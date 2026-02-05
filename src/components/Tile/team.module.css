@@ -1,0 +1,26 @@
+
+.team_flex{
+    display: flex;
+    gap: 20px;
+    align-items: end;
+}
+
+.team_card_header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.linkedin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #191A23;
+    width: 34px;
+    height: 34px;
+}
+
+.card{
+    padding: 35px 40px;
+}

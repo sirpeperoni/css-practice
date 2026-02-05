@@ -1,0 +1,35 @@
+.case_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.case_info_column {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  gap: 20px;
+  padding: 0 64px;
+  border-right: 1px solid #fff;
+}
+
+.case_info_column:first-child {
+  padding-left: 0;
+}
+
+.case_info_column:last-child {
+  padding-right: 0;
+  border-right: none;
+}
+
+.card{
+  padding: 70px 60px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: inherit;
+  text-decoration: none;
+}

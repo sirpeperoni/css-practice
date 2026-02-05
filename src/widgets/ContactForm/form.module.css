@@ -1,0 +1,60 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.form_container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form_container img {
+    margin-right: -100px;
+}
+
+.form_toggles {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+
+}
+
+.form_inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.card{
+    padding: 80px 100px;
+}
+
+.btn{
+    background: #191A23;
+    width: 100%;
+    color: #FFF;
+}
+
+.btn:hover{
+    background: #B9FF66;
+    color: #191A23;
+}
+
+.input{
+    border: 1px solid #000;
+}
+
+
+.label {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.input_with_label{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

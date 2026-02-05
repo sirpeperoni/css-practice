@@ -1,0 +1,29 @@
+.btn{
+    padding: 1.25rem 2.1875rem;
+    border: 1px solid black;
+    border-radius: 14px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}
+
+.spinner {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid black;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

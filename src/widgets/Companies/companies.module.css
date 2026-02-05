@@ -1,0 +1,9 @@
+.companies {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.image_container {
+    filter: brightness(0%);
+}
